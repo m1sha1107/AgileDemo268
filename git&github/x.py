@@ -1,4 +1,5 @@
-a=1
+a=2
 b=2
-print(a+b)
-print("THIS IS A DEMO")
+c=3
+d=a+b+c
+print(d)
