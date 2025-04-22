@@ -6,6 +6,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Run a script
-        run: echo "Hello, GitHub Actions!"
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'  # or specify exact version like '3.11'
+
+      - name: Run calculator.py
+        run: python calculator.py
