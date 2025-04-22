@@ -1,3 +1,3 @@
 THIS IS A README and im making changes to it on feature-branch :
 
-making chnagessssssssss
+i have made a few changes for DEVOPS DEMO
